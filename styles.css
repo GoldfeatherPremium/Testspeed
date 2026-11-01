@@ -129,6 +129,11 @@ body {
   color: var(--coffee);
 }
 
+.section-lede {
+  margin-bottom: 1.5rem !important;
+  color: var(--coffee-light);
+}
+
 .section p {
   margin-bottom: 0.75rem;
 }

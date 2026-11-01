@@ -2,9 +2,14 @@
   "name": "bean-there",
   "version": "1.0.0",
   "private": true,
-  "description": "Static landing page for Bean There coffee shop",
+  "description": "Landing page for Bean There coffee shop",
   "type": "module",
   "scripts": {
-    "build": "echo \"Static site: no build step required; serve the repo root directly.\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
   }
 }
