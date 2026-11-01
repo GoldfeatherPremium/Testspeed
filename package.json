@@ -1,0 +1,10 @@
+{
+  "name": "bean-there",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static landing page for Bean There coffee shop",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"Static site: no build step required; serve the repo root directly.\""
+  }
+}
