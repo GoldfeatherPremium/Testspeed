@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bean There — a cozy neighborhood coffee shop serving handcrafted espresso, fresh pastries, and good conversation.">
+  <title>Bean There — Coffee Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Bean There home">Bean There</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#visit">Visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Great coffee,<br>right here.</h1>
+        <p>Small-batch roasts, pulled with care. Welcome to Bean There.</p>
+        <a href="#menu" class="btn">See the menu</a>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <h2>What's brewing</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Espresso</h3>
+            <p>Bold, velvety, and dialed in daily.</p>
+          </article>
+          <article class="card">
+            <h3>Pour Over</h3>
+            <p>Single-origin beans, brewed to order.</p>
+          </article>
+          <article class="card">
+            <h3>Pastries</h3>
+            <p>Baked fresh every morning in-house.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="about">
+      <div class="container">
+        <h2>About Bean There</h2>
+        <p>We're a small shop with a simple belief: a good cup of coffee should feel like a moment for yourself. Stop by, stay a while, and bean there.</p>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <div class="container">
+        <h2>Visit us</h2>
+        <p><strong>Hours:</strong> Mon–Fri 7am–6pm · Sat–Sun 8am–4pm</p>
+        <p><strong>Address:</strong> 42 Oak Street, Portland, OR</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Bean There. Brewed with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
